@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         toastManager = ToastManager()
-        toastManager.s(this,"Library Toast")
+        toastManager.showShortToast(this,"Library Toast")
 
     }
 }
